@@ -1,0 +1,168 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: linear-gradient(to right, #03C0C2, #60D7D9, #FFFFFF );
+}
+
+.nav1 {
+	height: 11rem;
+	width: 100%;
+	background-color: none;
+	
+}
+
+.nav1 ul {
+   float: left;
+   margin-left: 26rem;  
+}
+
+.nav1 ul li {
+	list-style: none;
+	display: inline-block;
+	line-height: 11rem;
+	margin-left: 4rem;
+}
+
+.nav1 ul li a {
+	font-size: 2rem;
+	text-decoration: none;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 630;
+    padding: 7px 13px;	
+}
+
+.logo {
+	height: 11rem;
+	width: 12rem;
+	position: fixed;
+	margin-left: 12rem;
+	cursor: pointer;
+}
+
+#log {
+	color: black;
+}
+
+#sign {
+	color: black;
+	font-weight: 500;
+	padding: 9px 13px;
+}
+
+a.active {
+	border: 1px solid black;
+	border-radius: 2rem;
+
+}
+
+#sign:hover {
+	background-color: #6744B4;
+	color: #FFFFFF;
+	border-color: #6744B4;
+}
+
+.signup_page {
+	height: 33.5rem;
+	width: 85rem;
+	border: 1px solid #FFFFFF;
+	margin: 0 auto;
+	margin-top: 6rem;
+	background-color: #FFFFFF;
+	border-radius: 3px;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 7px 3px #AEADAC;
+}
+
+#sign_head {
+	font-family: sans-serif;
+	font-size: 2.7rem;
+	padding: 18px 0px 0px 370px;
+	color: #676565;
+}
+
+input {
+	height: 3.5rem;
+	width: 38.3rem;
+	padding-left: 1rem;
+	font-size: 15px;
+	border: 1px solid;
+	border-color: #DEDADA;
+}
+
+#first {
+	margin-left: 1.5rem;
+	margin-top: 2.2rem;
+}
+
+#first:focus {
+	outline-color: #03C0C2;
+	box-shadow: 0px 1px 7px 1px #60D7D9;
+}
+
+#last {
+	margin-left: 2rem;
+	margin-top: 2.2rem;
+}
+
+#last:focus {
+	outline-color: #03C0C2;
+	box-shadow: 0px 1px 7px 1px #60D7D9;
+}
+
+#phn {
+	margin-left: 1.5rem;
+	margin-top: 2.2rem;
+}
+
+#phn:focus {
+	outline-color: #03C0C2;
+	box-shadow: 0px 1px 7px 1px #60D7D9;
+}
+
+#mail {
+	margin-left: 2rem;
+	margin-top: 2.2rem;
+}
+
+#mail:focus {
+	outline-color: #03C0C2;
+	box-shadow: 0px 1px 7px 1px #60D7D9;
+}
+
+#cmpny {
+	margin-left: 1.6rem;
+	margin-top: 2.2rem;
+	width: 80rem;
+
+}
+
+#cmpny:focus {
+	outline-color: #03C0C2;
+	box-shadow: 0px 1px 7px 1px #60D7D9;
+}
+
+#sub_div {
+	margin-top: 2.2rem;
+	margin-left: 30rem;
+}
+
+#sub {
+   height: 5rem;	
+   width: 23rem;
+   border-radius: 25px;
+   padding-right: 10px;
+   font-size: 17px;
+   font-weight: 550;
+   background-color: #03C0C2;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+
